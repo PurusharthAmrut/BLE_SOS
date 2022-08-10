@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">BLE_SOS</string>
+
+    <string name="enter_message">Please enter the emergency message</string>
+    <string name="enter_message_hint">Type here</string>
+    <string name="edit_message_dialog_title">Setup Emergency SMS</string>
+
+    <string name="read_contacts_permission_title">Contacts permission required</string>
+    <string name="bluetooth_permission_title">Bluetooth permission required</string>
+    <string name="send_sms_permission_title">Send SMS permission required</string>
+    <string name="read_contacts_permission_message">
+        The app needs permission to access your contacts to determine
+        which contacts to send the emergency SMS to
+    </string>
+    <string name="bluetooth_permission_message">
+        Bluetooth permission is required to connect to the BLE device
+    </string>
+    <string name="send_sms_permission_message">
+        Permission to send SMS messages is required in order to send the emergency
+        SMS from your phone to the concerned contacts
+    </string>
+
+    <string name="ble_status_unpaired">Not paired to any beacon device</string>
+    <string name="ble_status_paired">Paired</string>
+    <string name="ble_status_live">Live</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="action_settings">Action settings</string>
+    <string name="import_contacts_trigger">Import Contacts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
